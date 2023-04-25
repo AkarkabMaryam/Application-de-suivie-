@@ -8,3 +8,9 @@ bien sur ce utulisateur doit t-il déja enregistré par un admin , pour cela on 
 
 2-la deuximmme page d'authentification est pour l'administrateur , il doit connecté par un login est un mot de passe , 
 si le mot de passe qui est  entré par l'utulisateur est correcte , dans ce cas la il doit etre dirigé dans sa page principale 
+
+cette page principale contient  les information  suivantes : 
+
+1-les équipes de la société + les taches de chaque équipes ( l'utulisateur dans ce cas va choisir sans équipe + la tache qui éffectue ) 
+2-si l 'utulisateur  souhaite s'absenter  ou (congé ) , il doit remplir un petit formulair , ce formulair contient la date de début de congé et la date de fin .
+3-si l'utulisateur souhaite voir tout les congé, il suffit de cliquer sur un boutton , puis s'affichera un tableau contient  tout ces demandes de congés.
