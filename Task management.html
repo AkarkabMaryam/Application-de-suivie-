@@ -1,0 +1,65 @@
+<html>
+ <head>
+  
+ </head>
+
+<body>
+<form action="toto.php" method="post" >
+
+<fieldset>
+ <legend> Gestion des taches : </legend>
+   <p>choississez votre Equipe /taches  : </p>
+     
+	 
+  <label for="utilise">date : </label>
+  <input type="date" id="birthday" name="birthday">
+  
+  
+     <label for="utilise">Teams : </label>
+   <select name="utilise" id="utilise">
+   <option value="FTTO">FTTO</option>
+   <option value="FTTH">FTTH</option>
+   <option value="NetGéO"> NetGéO</option>
+   <option value="calcules de charges ">calcules de charges</option>
+   </select>
+   
+    <label for="tache">tasks : </label>
+   
+     <select name="tache" id="tache">
+   <option value="plan de tirage">plan de tirage</option>
+   <option value="plan d'agueillage">plan d'agueillage</option>
+   <option value="vérification donnés d'entrés"> vérification donnés d'entrés</option>
+   <option value="réalisation des PV et REC  ">réalisation des PV et REC</option>
+   </select>
+   
+   </br>
+    </br>
+   
+    <label for="temps">time : </label>
+   
+    <select name="temps" id="temps">
+   <option value="Morning">Morning</option>
+   <option value="afternoon">afternoon</option>
+   <option value="evening">evening</option>
+  
+   </select>
+   
+   <label for="envoyer formulaire" id="formulaire"  >send the form</label>
+   <form>
+  <input type="button" value="send" onclick="msg()">
+</form>
+   
+   <script>
+function msg() {
+  alert("the information is recorded!");
+}
+</script>
+   
+</fieldset>
+
+
+</body>
+
+
+
+</html>
